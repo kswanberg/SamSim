@@ -36,26 +36,3 @@ for ii in range(numSimulationRuns):
 print(TimesToFullySample)  
 plt.hist(TimesToFullySample)
 plt.show()   
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Code adapted from https://www.johndcook.com/blog/2022/05/14/exhaustive-sampling/ 
-
-# Function definition for Stirling number of the second order    
-#def k_factorial_stirling(n, k):
-   # return sum((-1)**i * special.comb(k, i)*(k-i)**n for i in range(k+1))  
-
-#kVal = 17
-#nVal = 17
-#p = k_factorial_stirling(nVal, kVal) / kVal**kVal
-
